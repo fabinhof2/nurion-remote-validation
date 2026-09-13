@@ -9,3 +9,6 @@ class CalculatorTest(unittest.TestCase):
 
     def test_subtract(self):
         self.assertEqual(subtract(7, 4), 3)
+
+    def test_subtract_zero(self):
+        self.assertEqual(subtract(0, 0), 0)
